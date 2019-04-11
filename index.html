@@ -2,23 +2,37 @@
 <head>
     <title>Tetris Game JS</title>
     <style>
+        #bigbox{
+            margin-top: 50px;
+            border: 15px solid black;
+        }
+        body{
+            background-image: url("bckgrndimg.jpg");
+        }
         #score{
             display: inline;
+            color: white;
+            
         }
         div{
-            font-size: 25px;
+            color: white;
+            font-size: 30px;
+           
             font-weight: bold;
             font-family: monospace;
             text-align: center;
+            background-color: red;
+            margin-top: 60px;
         }
         canvas{
             display: block;
             margin:0 auto;
         }
+        
     </style>
 </head>
 <body>
-    <canvas id="tetris" width="200" height="400"></canvas>
+    <canvas id="bigbox" width="600" height="600"></canvas>
     <div>
         Score : <div id="score">0</div>
     </div>
